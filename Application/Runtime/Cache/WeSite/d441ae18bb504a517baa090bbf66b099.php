@@ -1,0 +1,214 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+<title>我要留言</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<link rel="stylesheet" href="/Public/weui/css/weui.css">
+<link rel="stylesheet" href="/Public/css/font-awesome.min.css">
+<script src="/Public/js/jquery-1.11.3.min.js"></script>
+<script src="/Public/js/ajaxfileupload.js"></script>
+<script src="/Public/js/jquery.cityselect.js"></script>
+
+<body style="background-color: #F3F3F3">
+<div style="width:100%;float:none">
+	<div style="width:100%;float:left">
+		<img width="100%" height="auto" src="/Public/wesite/img/logo.jpg" />
+	</div>
+</div>  
+    <div class="weui_cells_title">我的留言</div>
+    <div class="weui_cells weui_cells_form">
+        <div class="weui_cell">
+            <div class="weui_cell_hd" style="width:25%"><label class="weui_label" style="width:100%">微信号</label></div>
+            <div class="weui_cell_bd weui_cell_primary" style="width:75%">
+                <input class="weui_input" type="text" id="weixinid" placeholder="输入您的微信号"/>
+            </div>
+        </div>
+    </div>
+    <div class="weui_cells weui_cells_form">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <textarea id="comment" class="weui_textarea" placeholder="快给楼主介绍一下自己吧" rows="3" maxlength="800"></textarea>
+                <div class="weui_textarea_counter">上限400字</div>
+            </div>
+        </div>
+    </div>
+    <div class="weui_cells weui_cells_form">
+        <div class="weui_cell">
+            <div class="weui_cell_bd weui_cell_primary">
+                <div class="weui_uploader">
+                    <div class="weui_uploader_hd weui_cell">
+                        <div class="weui_cell_bd weui_cell_primary">上传照片（*非必选）</div>
+                    </div>
+                    <div class="weui_uploader_bd">
+                        <div style="float:left;margin-right:10px">
+							<img id="img_comment_pre" height="79px" width="auto" src="" />
+                        </div>
+                        <div class="weui_uploader_input_wrp">
+                            <input class="weui_uploader_input" id="img_comment" name="img_comment" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" multiple />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+    	var img_comment_sel = false;
+    	$(function(){
+            $("#img_comment").change(function(e){
+                var file = e.target.files[0]||e.dataTransfer.files[0];
+                if(file){
+                    var reader = new FileReader();
+                    reader.onload=function(){
+                        getImgData(this.result,orientation,function(data){
+                            //这里可以使用校正后的图片data了
+                            $("#img_comment_pre").attr('src',data);
+                            img_comment_sel = true;
+                        }); 
+                        //$("<img src='"+this.result+"'/>").appendTo("body");
+                    }
+                    reader.readAsDataURL(file);
+                }
+            });
+        });
+        function getImgData(img,dir,next){
+            var image=new Image();
+            image.onload=function(){
+                var degree=0,drawWidth,drawHeight,width,height;   drawWidth=this.naturalWidth;
+                drawHeight=this.naturalHeight;
+                //以下改变一下图片大小
+                var maxSide = Math.max(drawWidth, drawHeight);
+                if (maxSide > 1024) {
+                    var minSide = Math.min(drawWidth, drawHeight);     minSide = minSide / maxSide * 1024;
+                    maxSide = 1024;
+                    if (drawWidth > drawHeight) {
+                        drawWidth = maxSide;
+                        drawHeight = minSide;
+                    } else {
+                        drawWidth = minSide;
+                        drawHeight = maxSide;
+                    }
+                }
+                var canvas=document.createElement('canvas');
+                canvas.width=width=drawWidth;
+                canvas.height=height=drawHeight;
+                var context=canvas.getContext('2d');   
+                //判断图片方向，重置canvas大小，确定旋转角度，iphone默认的是home键在右方的横屏拍摄方式
+                switch(dir){
+                    //iphone横屏拍摄，此时home键在左侧
+                    case 3:
+                        degree=180;
+                        drawWidth=-width;
+                        drawHeight=-height;
+                        break;
+                        //iphone竖屏拍摄，此时home键在下方(正常拿手机的方向)
+                    case 6:
+                        canvas.width=height;
+                        canvas.height=width;
+                        degree=90;
+                        drawWidth=width;
+                        drawHeight=-height;
+                        break;
+                        //iphone竖屏拍摄，此时home键在上方
+                    case 8:
+                        canvas.width=height;
+                        canvas.height=width;
+                        degree=270;
+                        drawWidth=-width;
+                        drawHeight=height;
+                        break;
+                }
+                //使用canvas旋转校正
+                context.rotate(degree*Math.PI/180);
+                context.drawImage(this,0,0,drawWidth,drawHeight);
+                //返回校正图片
+                next(canvas.toDataURL("image/jpeg",.8));
+            }
+            image.src=img;
+        }
+    </script>
+    <div style="height:60px"></div>
+    <div id="loadingToast" class="weui_loading_toast" style="display:none;">
+        <div class="weui_mask_transparent"></div>
+        <div class="weui_toast">
+            <div class="weui_loading">
+                <!-- :) -->
+                <div class="weui_loading_leaf weui_loading_leaf_0"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_1"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_2"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_3"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_4"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_5"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_6"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_7"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_8"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_9"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_10"></div>
+                <div class="weui_loading_leaf weui_loading_leaf_11"></div>
+            </div>
+            <p class="weui_toast_content">数据上传中...</p>
+        </div>
+    </div>
+    <div style="position:fixed;bottom:0px;width:100%;background-color: #009FC6;height:40px;line-height: 40px;text-align:center;color:white" onClick="submit()">
+		<i class="fa fa-volume-up"></i>&nbsp;确认提交
+    </div>
+</body>
+<script>
+var img_comment_name = "";
+function submit() {
+    $("#loadingToast").show();
+    if($("#weixinid").val() == "") {
+        alert("输入微信号！");
+        $("#weixinid").focus();
+    } else if($("#comment").val() == "") {
+		alert("输入留言！");
+		$("#comment").focus();
+	} else {
+        if(img_comment_sel == true) {
+            upload_pic('img_comment');
+        } else {
+            upload_data();
+        }
+	}
+}
+function upload_pic(id) {
+	$.ajaxFileUpload({
+        url: '/index.php/WeSite/Comment/upload_pic', 
+        secureuri: false, //一般设置为false
+        fileElementId: id, // 上传文件的id、name属性名
+        dataType: 'text', //返回值类型，一般设置为json、application/json
+        success: function(data, status){  
+        	img_comment_name = data;
+            upload_data();
+        },
+        error: function(data, status, e){ 
+            $("#loadingToast").hide();
+            alert(e);
+        }
+    });
+}
+var submitting = false;
+function upload_data() {
+    if(submitting == false) {
+        submitting = true;
+        $.post("/index.php/WeSite/Comment/submit",{
+                page_id:<?php echo ($page_id); ?>,
+                weixinid:$("#weixinid").val(),
+                comment:$("#comment").val(),
+                img_comment:img_comment_name
+            },
+            function(data) {
+                $("#loadingToast").hide();
+                if(data == 'SUCCESS') {
+                    alert("留言成功！");
+                    window.location.href="/index.php/WeSite/Page/index/page_id/"+<?php echo ($page_id); ?>;
+                } else {
+                    alert("留言失败！");
+                    submitting = false;
+                }
+            },
+            'text'
+        );
+    }	
+}
+</script>
+</html>

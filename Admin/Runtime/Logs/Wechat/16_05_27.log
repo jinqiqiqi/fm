@@ -1,0 +1,554 @@
+[ 2016-05-27T14:16:52+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014415s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-05-27T14:17:05+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000688s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-05-27T14:17:06+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010220s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000620s ]
+
+[ 2016-05-27T14:17:09+08:00 ] 221.224.51.250 /admin.php/Wechat/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_menu` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_menu` WHERE ( token = 'gh_0cd081a29ac3' AND level = 1 ) ORDER BY number  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-05-27T14:17:12+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000196s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011961s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012094s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000652s ]
+
+[ 2016-05-27T14:17:19+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/edit/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_wechat` WHERE ( id = '21' ) LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2016-05-27T14:17:45+08:00 ] 101.226.103.61 /admin.php/Wechat/Index/index/id/21.html?signature=675d08fd76c281e7073268f2bf07ababcfa2ca9d&echostr=6499680650388830187&timestamp=1464329865&nonce=171894715
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000511s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2016-05-27T14:17:55+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/edit_wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_wechat` WHERE ( id = 21 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `wx_wechat` SET `appid`='wxc784a9c1fd00e7e1',`appsecret`='dba5511462fc690b1d7e623a81422b7b' WHERE ( id = 21 ) [ RunTime:0.0048s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2016-05-27T14:18:24+08:00 ] 101.226.103.61 /admin.php/Wechat/Index/index/id/21.html?signature=6ed88610c511821e0ffc4f61163580200d08ed03&echostr=6321882945654091518&timestamp=1464329904&nonce=147958448
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+
+[ 2016-05-27T14:18:38+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009356s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-05-27T14:18:51+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/edit/id/21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `wx_wechat` WHERE ( id = '21' ) LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007778s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000290s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-05-27T14:18:56+08:00 ] 221.224.51.250 /admin.php/Wechat/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `wx_menu` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_menu` WHERE ( token = 'gh_0cd081a29ac3' AND level = 1 ) ORDER BY number  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012174s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2016-05-27T14:18:59+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2016-05-27T14:19:10+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009886s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009960s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+
+[ 2016-05-27T14:19:11+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009665s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009738s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000508s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
+[ 2016-05-27T14:19:14+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/delete_wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0015s ]
+SQL: DELETE FROM `wx_wechat` WHERE ( id = 21 ) [ RunTime:0.0058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000813s ]
+
+[ 2016-05-27T14:19:16+08:00 ] 221.224.51.250 /admin.php/Wechat/Menu/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wx_menu` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_menu` WHERE ( token = 'gh_0cd081a29ac3' AND level = 1 ) ORDER BY number  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011832s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011932s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-05-27T14:19:17+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2016-05-27T14:19:42+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000607s ]
+
+[ 2016-05-27T14:19:43+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/add
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006703s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006765s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-05-27T14:22:09+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/add_wechat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_wechat` WHERE ( token = 'gh_0cd081a29ac3' ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `wx_wechat` (`name`,`token`,`appid`,`appsecret`) VALUES ('友媒社交','gh_0cd081a29ac3','wxc784a9c1fd00e7e1','dba5511462fc690b1d7e623a81422b7b') [ RunTime:0.1959s ]
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wx_cur_wechat` LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-05-27T14:22:52+08:00 ] 221.224.51.250 /admin.php/Wechat/Wechat/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+SQL: SHOW COLUMNS FROM `wx_cur_wechat` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `wx_cur_wechat`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `wx_wechat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `wx_wechat`  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040186s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000649s ]
+

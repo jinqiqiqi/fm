@@ -1,0 +1,154 @@
+[ 2016-05-31T03:23:19+08:00 ] 203.208.60.238 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000590s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000292s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000556s ]
+
+[ 2016-05-31T03:52:44+08:00 ] 203.208.60.247 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000624s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000531s ]
+
+[ 2016-05-31T15:09:38+08:00 ] 203.208.60.241 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000636s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000716s ]
+
+[ 2016-05-31T18:24:59+08:00 ] 64.79.100.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000642s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000797s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000481s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2016-05-31T18:25:00+08:00 ] 64.79.100.16 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000494s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2016-05-31T19:29:09+08:00 ] 203.208.60.248 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000284s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2016-05-31T23:25:09+08:00 ] 203.208.60.237 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000541s ]
+NOTIC: [2] session_start(): Cannot send session cookie - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Common/functions.php 第 1263 行.
+INFO: [ view_parse ] --START--
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.000335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.000395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /data/home/qxu2062980122/htdocs/ThinkPHP/Conf/convention.php:1) /data/home/qxu2062980122/htdocs/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
