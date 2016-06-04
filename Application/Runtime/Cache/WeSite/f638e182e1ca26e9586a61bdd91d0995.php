@@ -42,7 +42,7 @@
                 if(file){
                     var reader = new FileReader();
                     reader.onload=function(){
-                        getImgData(this.result,orientation,function(data){
+                        getImgData(this.result, function(data){
                             //这里可以使用校正后的图片data了
                             img_front_sel = true;
                             $("#img_front_prev").attr('src',data);
@@ -54,7 +54,7 @@
                 }
             });
         })
-        function getImgData(img,dir,next){
+        function getImgData(img, next){
             var image=new Image();
             image.onload=function(){
                 var degree=0,drawWidth,drawHeight,width,height;   drawWidth=this.naturalWidth;
@@ -62,7 +62,8 @@
                 //以下改变一下图片大小
                 var maxSide = Math.max(drawWidth, drawHeight);
                 if (maxSide > 1024) {
-                    var minSide = Math.min(drawWidth, drawHeight);     minSide = minSide / maxSide * 1024;
+                    var minSide = Math.min(drawWidth, drawHeight);
+                    minSide = minSide / maxSide * 1024;
                     maxSide = 1024;
                     if (drawWidth > drawHeight) {
                         drawWidth = maxSide;
@@ -77,30 +78,30 @@
                 canvas.height=height=drawHeight;
                 var context=canvas.getContext('2d');   
                 //判断图片方向，重置canvas大小，确定旋转角度，iphone默认的是home键在右方的横屏拍摄方式
-                switch(dir){
-                    //iphone横屏拍摄，此时home键在左侧
-                    case 3:
-                        degree=180;
-                        drawWidth=-width;
-                        drawHeight=-height;
-                        break;
-                        //iphone竖屏拍摄，此时home键在下方(正常拿手机的方向)
-                    case 6:
-                        canvas.width=height;
-                        canvas.height=width;
-                        degree=90;
-                        drawWidth=width;
-                        drawHeight=-height;
-                        break;
-                        //iphone竖屏拍摄，此时home键在上方
-                    case 8:
-                        canvas.width=height;
-                        canvas.height=width;
-                        degree=270;
-                        drawWidth=-width;
-                        drawHeight=height;
-                        break;
-                }
+                // switch(dir){
+                //     //iphone横屏拍摄，此时home键在左侧
+                //     case 3:
+                //         degree=180;
+                //         drawWidth=-width;
+                //         drawHeight=-height;
+                //         break;
+                //         //iphone竖屏拍摄，此时home键在下方(正常拿手机的方向)
+                //     case 6:
+                //         canvas.width=height;
+                //         canvas.height=width;
+                //         degree=90;
+                //         drawWidth=width;
+                //         drawHeight=-height;
+                //         break;
+                //         //iphone竖屏拍摄，此时home键在上方
+                //     case 8:
+                //         canvas.width=height;
+                //         canvas.height=width;
+                //         degree=270;
+                //         drawWidth=-width;
+                //         drawHeight=height;
+                //         break;
+                // }
                 //使用canvas旋转校正
                 context.rotate(degree*Math.PI/180);
                 context.drawImage(this,0,0,drawWidth,drawHeight);
@@ -241,7 +242,7 @@
                 if(file){
                     var reader = new FileReader();
                     reader.onload=function(){
-                        getImgData(this.result,orientation,function(data){
+                        getImgData(this.result, function(data){
                             //这里可以使用校正后的图片data了
                             $("#img_1").parent().hide();
                             $("#img_2").parent().show();
@@ -258,7 +259,7 @@
                 if(file){
                     var reader = new FileReader();
                     reader.onload=function(){
-                        getImgData(this.result,orientation,function(data){
+                        getImgData(this.result, function(data){
                             //这里可以使用校正后的图片data了
                             $("#img_2").parent().hide();
                             $("#img_3").parent().show();
@@ -275,7 +276,7 @@
                 if(file){
                     var reader = new FileReader();
                     reader.onload=function(){
-                        getImgData(this.result,orientation,function(data){
+                        getImgData(this.result, function(data){
                             //这里可以使用校正后的图片data了
                             $("#img_3_pre").attr('src',data);
                             img_3_sel = true;

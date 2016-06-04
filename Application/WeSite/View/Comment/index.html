@@ -59,7 +59,7 @@
                 if(file){
                     var reader = new FileReader();
                     reader.onload=function(){
-                        getImgData(this.result,orientation,function(data){
+                        getImgData(this.result, function(data){
                             //这里可以使用校正后的图片data了
                             $("#img_comment_pre").attr('src',data);
                             img_comment_sel = true;
@@ -70,7 +70,7 @@
                 }
             });
         });
-        function getImgData(img,dir,next){
+        function getImgData(img, next){
             var image=new Image();
             image.onload=function(){
                 var degree=0,drawWidth,drawHeight,width,height;   drawWidth=this.naturalWidth;
@@ -93,30 +93,30 @@
                 canvas.height=height=drawHeight;
                 var context=canvas.getContext('2d');   
                 //判断图片方向，重置canvas大小，确定旋转角度，iphone默认的是home键在右方的横屏拍摄方式
-                switch(dir){
-                    //iphone横屏拍摄，此时home键在左侧
-                    case 3:
-                        degree=180;
-                        drawWidth=-width;
-                        drawHeight=-height;
-                        break;
-                        //iphone竖屏拍摄，此时home键在下方(正常拿手机的方向)
-                    case 6:
-                        canvas.width=height;
-                        canvas.height=width;
-                        degree=90;
-                        drawWidth=width;
-                        drawHeight=-height;
-                        break;
-                        //iphone竖屏拍摄，此时home键在上方
-                    case 8:
-                        canvas.width=height;
-                        canvas.height=width;
-                        degree=270;
-                        drawWidth=-width;
-                        drawHeight=height;
-                        break;
-                }
+                // switch(dir){
+                //     //iphone横屏拍摄，此时home键在左侧
+                //     case 3:
+                //         degree=180;
+                //         drawWidth=-width;
+                //         drawHeight=-height;
+                //         break;
+                //         //iphone竖屏拍摄，此时home键在下方(正常拿手机的方向)
+                //     case 6:
+                //         canvas.width=height;
+                //         canvas.height=width;
+                //         degree=90;
+                //         drawWidth=width;
+                //         drawHeight=-height;
+                //         break;
+                //         //iphone竖屏拍摄，此时home键在上方
+                //     case 8:
+                //         canvas.width=height;
+                //         canvas.height=width;
+                //         degree=270;
+                //         drawWidth=-width;
+                //         drawHeight=height;
+                //         break;
+                // }
                 //使用canvas旋转校正
                 context.rotate(degree*Math.PI/180);
                 context.drawImage(this,0,0,drawWidth,drawHeight);
