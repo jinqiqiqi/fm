@@ -43,6 +43,7 @@ class RegisterController extends Controller {
 				}
 				get_openid($openid);
 			}
+            $this->assign('my_id', $openid);
 
 		$this->display();
 	}
@@ -127,7 +128,7 @@ class RegisterController extends Controller {
 		echo $pic_name;
 	}
 	public function submit() {
-		$data['openid'] = get_openid();
+		$data['openid'] = I("my_id"); // get_openid();
 		$data['title'] = I('title');
 		$data['nickname'] = I('nickname');
 		$data['provience'] = I('provience');

@@ -3,3 +3,4 @@ Application/Runtime/Cache
 Application/Runtime/Data
 Application/Runtime/Logs
 Application/Runtime/Temp
+.DS_Store

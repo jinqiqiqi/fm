@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>[友媒]朋友帮你找寻靠谱的Ta</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
 <link rel="stylesheet" href="__PUBLIC__/weui/css/weui.css">
 <link rel="stylesheet" href="__PUBLIC__/css/font-awesome.min.css">
@@ -32,6 +33,7 @@
             </div>
         </div>
     </div>
+    <input type="hidden" name="my_id" id="my_id" value="{$my_id}" />
     <script>
     	var img_front_sel = false;
 		$(function(){
@@ -390,7 +392,7 @@ var submitting = false;
 function upload_data() {
     if(submitting == false) {
         submitting = true;
-        $.post("/index.php/WeSite/Register/submit",{
+        $.post("/index.php/WeSite/Register/submit", {
                 title:$("#title").val(),
                 provience:$("#provience").val(),
                 city:$("#city").val(),
@@ -402,9 +404,11 @@ function upload_data() {
                 img_front:img_front_name,
                 img_1:img_1_name,
                 img_2:img_2_name,
-                img_3:img_3_name
+                img_3:img_3_name,
+                my_id: $("#my_id").val()
             },
             function(data) {
+                alert("Response: "+ JSON.stringify(data));
                 if(data.status == 'SUCCESS') {
                     $("#loadingToast").hide();
                     window.location.href = '/index.php/WeSite/Page/index/page_id/'+data.page_id;
